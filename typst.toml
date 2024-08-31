@@ -1,0 +1,12 @@
+[package]
+name = "fcfm-evaluacion"
+version = "0.1.0"
+entrypoint = "conf.typ"
+authors = ["Esteban Muñoz"]
+license = "MIT-0"
+description = "Template for the assignments at the FCFM"
+exclude = [".git", ".gitignore", ".vscode"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
